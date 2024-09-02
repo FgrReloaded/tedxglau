@@ -70,3 +70,68 @@ export const socialMedia = [
         designation: "Follow us on YouTube",
     },
 ]
+
+export const teamHeads = [
+    {
+        name: "Uday Gupta",
+        designation: "Organiser",
+        pic: "/images/heads/1.png",
+    },
+    {
+        name: "Sneha Agarwal",
+        designation: "Ambassador",
+        pic: "/images/heads/3.png",
+    },
+    {
+        name: "Drashya Kathuria",
+        designation: "Curator",
+        pic: "/images/heads/4.png",
+    },
+    {
+        name: "Hardik Mishra",
+        designation: "Head Data & Finance",
+        pic: "/images/heads/5.png",
+    },
+    {
+        name: "Ansh Gaur",
+        designation: "Head Operations",
+        pic: "/images/heads/2.png",
+    },
+    {
+        name: "Bhuvnesh",
+        designation: "Head Media & Publicity",
+        pic: "/images/heads/8.png",
+    },
+    {
+        name: "Saurav Kumar",
+        designation: "Head Design",
+        pic: "/images/heads/7.png",
+    },
+    {
+        name: "Nitish Kumar",
+        designation: "Web & IT Head",
+        pic: "/images/heads/6.png",
+    }
+]
+
+export const teams = [
+    "/images/teams/1.png",
+    "/images/teams/2.png",
+    "/images/teams/3.png",
+    "/images/teams/4.png",
+    "/images/teams/5.png",
+    "/images/teams/6.png",
+    "/images/teams/7.png",
+    "/images/teams/8.png",
+    "/images/teams/9.png",
+    "/images/teams/10.png",
+    "/images/teams/11.png",
+    "/images/teams/12.png",
+    "/images/teams/13.png",
+    "/images/teams/14.png",
+    "/images/teams/15.png",
+    "/images/teams/16.png",
+    "/images/teams/17.png",
+    "/images/teams/18.png",
+    "/images/teams/19.png",
+]

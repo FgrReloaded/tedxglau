@@ -21,12 +21,16 @@ const HeroSection = ({ tagline, heading, className }: HeroSectionProps) => {
   if (pathname === '/') {
 
     return (
-      <Vortex
-        baseHue={300}
-        backgroundColor={theme === "dark" ? "#000" : "#fff"}
-        className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
-      >
+      // <Vortex
+      //   baseHue={300}
+      //   backgroundColor={theme === "dark" ? "#000" : "#fff"}
+      //   className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
+      // >
         <div className={cn(" sm:h-[80vh] w-full rounded-md flex md:items-center md:justify-center bg-white antialiased bg-grid-white/[0.02] relative overflow-hidden", className)}>
+          <div className='absolute sm:h-full z-10 opacity-10'>
+
+          <video autoPlay loop preload="auto" src="/TEDxGLAU WEB VID.mp4"></video>
+          </div>
           <Spotlight
             className="-top-40 left-0 md:left-60 md:-top-20 fixed"
             fill="white"
@@ -38,7 +42,7 @@ const HeroSection = ({ tagline, heading, className }: HeroSectionProps) => {
             <TextGenerateEffect words={tagline} className='text-center uppercase text-sm font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-br from-gray-300 to-gray-900 dark:from-gray-900 dark:to-gray-300' />
           </div>
         </div>
-      </Vortex>
+      // </Vortex>
     )
   } else {
     return (
