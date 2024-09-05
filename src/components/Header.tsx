@@ -1,5 +1,6 @@
 import { ModeToggle } from "./ModeToggle"
 import { HoverBorderGradient } from "./ui/hover-border-gradient"
+import Link from "next/link"
 
 export const Header = () => {
     return (
@@ -10,7 +11,9 @@ export const Header = () => {
                     as="button"
                     className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
                 >
-                    <span className='md:text-base text-sm'>Get Tickets Now</span>
+                    <Link target="_blank" href={'https://docs.google.com/forms/d/e/1FAIpQLSeiGDC_Wi-HuaCm530y7lVCZxM4Kx0u-b73hav8YtpRLQaALw/viewform'}>
+                        <span className='md:text-base text-sm'>Get Tickets Now</span>
+                    </Link>
                 </HoverBorderGradient>
             </div>
             <span className='w-[10%] h-full md:bg-white dark:md:bg-black absolute -left-[10%] top-0' />

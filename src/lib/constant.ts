@@ -83,6 +83,11 @@ export const teamHeads = [
         pic: "/images/heads/3.png",
     },
     {
+        name: "Ansh Gaur",
+        designation: "Co-Orgainser",
+        pic: "/images/heads/2.png",
+    },
+    {
         name: "Drashya Kathuria",
         designation: "Curator",
         pic: "/images/heads/4.png",
@@ -91,11 +96,6 @@ export const teamHeads = [
         name: "Hardik Mishra",
         designation: "Head Data & Finance",
         pic: "/images/heads/5.png",
-    },
-    {
-        name: "Ansh Gaur",
-        designation: "Head Operations",
-        pic: "/images/heads/2.png",
     },
     {
         name: "Bhuvnesh",
