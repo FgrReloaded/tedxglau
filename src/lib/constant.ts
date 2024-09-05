@@ -84,7 +84,7 @@ export const teamHeads = [
     },
     {
         name: "Ansh Gaur",
-        designation: "Co-Orgainser",
+        designation: "Co-Organiser",
         pic: "/images/heads/2.png",
     },
     {
