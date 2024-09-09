@@ -29,7 +29,7 @@ const Speakers = () => {
       <div className='flex flex-col gap-2'>
         {
           speakers.map((speaker, index) => (
-            <SpeakerCard reverse={index%2===0} speaker={speaker} />
+            <SpeakerCard key="index" reverse={index%2===0} speaker={speaker} />
           )) 
         }
       </div>
