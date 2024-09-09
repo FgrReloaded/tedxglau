@@ -1,6 +1,7 @@
 import React from 'react'
 import { SparklesCore } from '../ui/sparkles'
 import SpeakerCard from './SpeakerCard'
+import { speakers } from '@/lib/constant'
 
 const Speakers = () => {
   return (
@@ -26,12 +27,11 @@ const Speakers = () => {
         <div className="absolute inset-0 w-full h-full dark:bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
       </div>
       <div className='flex flex-col gap-2'>
-        <SpeakerCard />
-        <SpeakerCard reverse={true} />
-        <SpeakerCard />
-        <SpeakerCard reverse={true} />
-        <SpeakerCard />
-        <SpeakerCard reverse={true} />
+        {
+          speakers.map((speaker, index) => (
+            <SpeakerCard reverse={index%2===0} speaker={speaker} />
+          )) 
+        }
       </div>
       
     </div>
