@@ -71,12 +71,16 @@ export const speakers = [
 export const events: Record<string, Event> = {
     "1.0": {
         tagLine: "My Idea Lives Forever",
+        youtube: "https://www.youtube.com/embed/s24OD1ktaCU?si=aG1HG2X9Ae0bne6n&amp;controls=0",
+        organizer: "Pranao Sinha",
+        day: "Sunday",
+        date: "November 6, 2016",
         speakers: [
             {
                 name: "Akshay Gunteti",
                 designation: "Travelling Entrepreneur",
                 image: "/images/anant.webp",
-                description: "Akshay Gunteti is an entrepreneur and a traveller. In due course of his travel across the country, he has garnered the knowledge and understanding of how start-ups evolve and the problems that come in their wake. He works with NGOs across India, turning them into a sustainable social business that helps the community empower and turn self-sustainable.  Right now, he’s working with ‘Rasta’ in empowering indigenous communities in India. ‘Indian Startup Tour’ is a joint initiative of Akshay Gunteti & Nidhiya V. Raj. The pioneering journey to meet dynamic groups of entrepreneurs, innovators and small-scale start-ups. It is a drive to propel 2,000+ ingenious ventures with 40 advantageous meet-ups across 30 destinations spanning 10,020 kilometres. Indian Startup Tour aims to bring all the start-up innovators on common grounds under one roof. Akshay envisions to garner innovations and ideas through travel, and help build the spirit of entrepreneurship across India."
+                description: "Akshay Gunteti is an entrepreneur and a traveller. In due course of his travel across the country, he has garnered the knowledge and understanding of how start-ups evolve and the problems that come in their wake. He works with NGOs across India, turning them into a sustainable social business that helps the community empower and turn self-sustainable.  Right now, he’s working with ‘Rasta’ in empowering indigenous communities in India. ‘Indian Startup Tour’ is a joint initiative of Akshay Gunteti & Nidhiya V. Raj. The pioneering journey to meet dynamic groups of entrepreneurs, innovators and small-scale start-ups. It is a drive to propel 2,000+ ingenious ventures with 40 advantageous meet-ups across 30 destinations spanning 10,020 kilometres. Indian Startup Tour aims to bring all the start-up innovators on common grounds under one roof."
             },
             {
                 name: "Deepak Gadhia",
@@ -131,6 +135,9 @@ export const events: Record<string, Event> = {
     "2.0": {
         tagLine: "The Idea That Stays",
         youtube: "https://www.youtube.com/embed/QlCUOTs0Fro?si=0BVgN7h9jg82h70C",
+        date: "05 November 2017",
+        day: "Sunday",
+        organizer: "Pranao Sinha",
         speakers: [
             {
                 name: "Aseem Trivedi",
@@ -191,6 +198,9 @@ export const events: Record<string, Event> = {
     "3.0": {
         tagLine: "Breaking Our Own Barriers",
         youtube: "https://www.youtube.com/embed/TA8rTPHgP9s?si=dAUEAOD3iGzhyOjR",
+        organizer: "Nilesh Singh Rajput",
+        date: "28 October 2018",
+        day: "Sunday",
         speakers: [
             {
                 "name": "Aashish Gupta",
@@ -257,6 +267,9 @@ export const events: Record<string, Event> = {
     "4.0": {
         tagLine: "SILENT LEADERS UNTOLD TRUTH",
         youtube: "https://www.youtube.com/embed/z1alvSz_D-0?si=iQJrNlqU_Swhtz2j",
+        organizer: "Sankalp Chaturvedi",
+        day: "Sunday",
+        date: "10 November 2019",
         speakers: [
             {
                 name: "Anant Khairnar",
@@ -317,6 +330,9 @@ export const events: Record<string, Event> = {
     "5.0": {
         tagLine: "Creativity Lies Inside Thoughts",
         youtube: "https://www.youtube.com/embed/gzVrQ1k5yhM?si=rAyFKd0lSHfsl6dD",
+        date: "April 17, 2021",
+        day: 'Saturday',
+        organizer: "Ayush Gupta",
         speakers: [
             {
                 "name": "Gaurav Gupta",
@@ -371,6 +387,9 @@ export const events: Record<string, Event> = {
     "6.0": {
         tagLine: "Big Dreams Simple Mindset",
         youtube: "https://www.youtube.com/embed/6HW2Hou72Kg?si=OUb_KkVREyXTj6cP",
+        organizer: "Alok kumar Ojha",
+        date: "December 3, 2022",
+        day: "Saturday",
         speakers: [
             {
               name: "Amogh Liladas",

@@ -13,8 +13,8 @@ export default function Page() {
 
   return (
     <>
-      <HeroSection tagline="Creativity Unveils the Mind" />
-      <h1 style={oswald.style} className="text-7xl mt-6 font-bold mt-6 text-center uppercase bg-clip-text bg-gradient-to-r dark:from-red-300 dark:to-slate-600 from-slate-900 to-slate-400 text-transparent">Join <br /> <span className="text-tedx text-8xl">Ted<span className="text-4xl content-start">X</span></span>Glau 20<span className="text-tedx text-8xl">24</span></h1>
+      <HeroSection tagline="Creativity Unveils Mind" />
+      <h1 style={oswald.style} className="text-7xl mt-6 font-bold text-center uppercase bg-clip-text bg-gradient-to-r dark:from-red-300 dark:to-slate-600 from-slate-900 to-slate-400 text-transparent">Join <br /> <span className="text-tedx text-8xl">Ted<span className="text-4xl content-start">X</span></span>Glau 20<span className="text-tedx text-8xl">24</span></h1>
       <p className="mx-auto uppercase text-gray-400 w-fit border-t border-gray-800">Organised by E-CELL GLAU</p>
       <p className="text-lg md:text-2xl text-center uppercase py-4 md:w-1/2 mx-auto text-transparent bg-clip-text bg-gradient-to-b from-gray-300 to-gray-900 dark:from-gray-900 dark:to-gray-300">for an unforgettable experience with groundbreaking ideas and influential </p>
       <Speakers />

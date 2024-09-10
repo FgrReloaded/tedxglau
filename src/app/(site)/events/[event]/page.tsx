@@ -1,5 +1,6 @@
 "use client";
 
+import EventFooter from "@/components/EventFooter";
 import HeroSection from "@/components/HeroSection";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
@@ -52,7 +53,7 @@ export default function EventPage({ params }: { params: { event: string } }) {
                 </div>
             </div>
             <HoverEffect items={speakers} />
-
+            <EventFooter organizer={event.organizer} day={event.day} date={event.date} />
         </>
     )
 }
