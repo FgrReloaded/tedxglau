@@ -55,13 +55,17 @@ export const HoverEffect = ({
             <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
             <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
 
-            <EvervaultCard imageSrc={item.image} />
+            {/* <EvervaultCard imageSrc={item.image} /> */}
+          
 
             <h2 className="dark:text-white text-black mt-4 text-xl font-light">
               {item.name}
             </h2>
             <p className="text-sm border font-light dark:border-tedx/[0.2] border-tedx/[0.2] rounded-full mt-4 text-tedx dark:text-tedx px-2 py-0.5">
               {item.designation}
+            </p>
+            <p className="text-sm font-light dark:text-white text-black mt-4">
+              {item.description}
             </p>
           </div>
         </div>

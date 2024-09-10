@@ -130,6 +130,7 @@ export const events: Record<string, Event> = {
     },
     "2.0": {
         tagLine: "The Idea That Stays",
+        youtube: "https://www.youtube.com/embed/QlCUOTs0Fro?si=0BVgN7h9jg82h70C",
         speakers: [
             {
                 name: "Aseem Trivedi",
@@ -189,6 +190,7 @@ export const events: Record<string, Event> = {
     },
     "3.0": {
         tagLine: "Breaking Our Own Barriers",
+        youtube: "https://www.youtube.com/embed/TA8rTPHgP9s?si=dAUEAOD3iGzhyOjR",
         speakers: [
             {
                 "name": "Aashish Gupta",
@@ -254,6 +256,7 @@ export const events: Record<string, Event> = {
     },
     "4.0": {
         tagLine: "SILENT LEADERS UNTOLD TRUTH",
+        youtube: "https://www.youtube.com/embed/z1alvSz_D-0?si=iQJrNlqU_Swhtz2j",
         speakers: [
             {
                 name: "Anant Khairnar",
@@ -313,6 +316,7 @@ export const events: Record<string, Event> = {
     },
     "5.0": {
         tagLine: "Creativity Lies Inside Thoughts",
+        youtube: "https://www.youtube.com/embed/gzVrQ1k5yhM?si=rAyFKd0lSHfsl6dD",
         speakers: [
             {
                 "name": "Gaurav Gupta",
@@ -366,6 +370,7 @@ export const events: Record<string, Event> = {
     },
     "6.0": {
         tagLine: "Big Dreams Simple Mindset",
+        youtube: "https://www.youtube.com/embed/6HW2Hou72Kg?si=OUb_KkVREyXTj6cP",
         speakers: [
             {
               name: "Amogh Liladas",

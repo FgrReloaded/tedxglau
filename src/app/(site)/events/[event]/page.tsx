@@ -26,7 +26,7 @@ export default function EventPage({ params }: { params: { event: string } }) {
                         </>
                     }
                 >
-                    <iframe className="mx-auto rounded-2xl object-cover h-full object-left-top sm:w-full w-80" width="960" height="315" src="https://www.youtube.com/embed/s24OD1ktaCU?si=aG1HG2X9Ae0bne6n&amp;controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <iframe className="mx-auto rounded-2xl object-cover h-full object-left-top sm:w-full w-80" width="960" height="315" src={event.youtube} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </ContainerScroll>
             </div>
             <div className="w-full bg-transparent dark:bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
