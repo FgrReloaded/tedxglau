@@ -107,18 +107,18 @@ const Navbar = () => {
                     )}
                 <motion.div initial={{ opacity: 0, x: -100 }} animate={{ opacity: isOpen ? "1" : "0", x: isOpen ? 0 : -100 }} transition={{ duration: 0.75, delay: 0.75 }} className="absolute bottom-[10%] md:top-1/2 md:-translate-y-1/2 left-0 pl-6" style={navItem.style}>
                     <p className='md:text-[2.5vw] text-[5vw] uppercase text-white'>
-                        <a href="#">Instagram</a>
+                        <a target='_blank' href="https://www.instagram.com/tedxglau?igsh=MTVqZWdxYjhobHAzOA==">Instagram</a>
                     </p>
                     <p className='md:text-[2.5vw] text-[5vw] uppercase text-tedx'>
-                        <a href="#">X</a>
+                        <a target='_blank' href="https://twitter.com/tedxglau">X</a>
                     </p>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: isOpen ? "1" : "0", x: isOpen ? 0 : 100 }} transition={{ duration: 0.75, delay: 0.75 }} className="absolute bottom-[10%] md:top-1/2 md:-translate-y-1/2 right-0 pr-6 text-right" style={navItem.style}>
                     <p className='md:text-[2.5vw] text-[5vw] uppercase text-tedx'>
-                        <a href="#">Facebook</a>
+                        <a target='_blank' href="https://www.facebook.com/tedxglau/">Facebook</a>
                     </p>
                     <p className='md:text-[2.5vw] text-[5vw] uppercase text-white'>
-                        <a href="#">Linkedin</a>
+                        <a target='_blank' href="https://www.linkedin.com/company/tedxglau/">Linkedin</a>
                     </p>
                 </motion.div>
             </motion.div>
