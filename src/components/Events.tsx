@@ -53,6 +53,14 @@ export function Events() {
                     />
                     <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
                 </Card>
+                <Card title="6.0" icon={<AceternityIcon />}>
+                    <CanvasRevealEffect
+                        animationSpeed={5.1}
+                        containerClassName="bg-black"
+                        colors={[[251, 216, 223]]}
+                    />
+                    <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
+                </Card>
             </div>
         </>
     );
