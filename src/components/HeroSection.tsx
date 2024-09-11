@@ -22,7 +22,7 @@ const HeroSection = ({ tagline, heading, className }: HeroSectionProps) => {
 
     return (
       <div className={cn(" sm:h-[80vh] w-full rounded-md flex md:items-center md:justify-center bg-white antialiased bg-grid-white/[0.02] relative overflow-hidden", className)}>
-        <div className='absolute sm:h-full z-10 opacity-10'>
+        <div className='absolute sm:h-full z-10 opacity-30'>
           <video autoPlay loop preload="auto" src="/TEDxGLAU WEB VID.mp4"></video>
         </div>
         <Spotlight
