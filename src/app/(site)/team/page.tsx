@@ -5,8 +5,9 @@ import ProfileCard from "@/components/ProfileCard";
 import { TeamCard } from "@/components/TeamCard";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { CardSpotlight } from "@/components/ui/card-spotlight";
-import { socialMedia, teamHeads } from "@/lib/constant";
+import { socialMedia, teamHeads, hostTeam, cohostTeam } from "@/lib/constant";
 import { Open_Sans } from "next/font/google"
+import Image from "next/image"
 
 const openSans = Open_Sans({ subsets: ["latin"] })
 
@@ -22,9 +23,35 @@ export default function TeamPage() {
                         <TeamCard key={idx} src={head.pic} name={head.name} designation={head.designation} />
                     ))
                 }
-                <h1 className="text-4xl md:text-6xl uppercase font-bold text-center mt-4 bg-gradient-to-b from-red-600 to-black bg-clip-text text-transparent">Team Members</h1>
+                <h1 className="text-4xl md:text-6xl uppercase font-bold text-center mt-8 bg-gradient-to-b from-red-600 to-black bg-clip-text text-transparent">Host Team</h1>
                 <div className='w-full h-[2px] bg-gradient-to-r from-transparent via-indigo-500 to-transparent blur-sm' />
-                <Teams />
+                {hostTeam.length > 0 ? (
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                        {hostTeam.map((image, idx) => (
+                            <div key={idx} className="flex justify-center">
+                                <Image src={image} alt={`Host member ${idx + 1}`} width={300} height={400} className="rounded-lg shadow-lg" />
+                            </div>
+                        ))}
+                    </div>
+                ) : (
+                    <p className="text-center text-gray-400 mt-4">Host team members coming soon...</p>
+                )}
+                
+                <h1 className="text-4xl md:text-6xl uppercase font-bold text-center mt-16 bg-gradient-to-b from-red-600 to-black bg-clip-text text-transparent">Co-Host Team</h1>
+                <div className='w-full h-[2px] bg-gradient-to-r from-transparent via-indigo-500 to-transparent blur-sm' />
+                {cohostTeam.length > 0 ? (
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                        {cohostTeam.map((image, idx) => (
+                            <div key={idx} className="flex justify-center">
+                                <Image src={image} alt={`Co-host member ${idx + 1}`} width={300} height={400} className="rounded-lg shadow-lg" />
+                            </div>
+                        ))}
+                    </div>
+                ) : (
+                    <p className="text-center text-gray-400 mt-4">Co-host team members coming soon...</p>
+                )}
+                
+
             </div>
         </div>
     );

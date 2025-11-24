@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Header } from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import CarouselProvider from "@/components/providers/carousel-provider";
+import GlobalParticles from "@/components/GlobalParticles";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -16,7 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="w-screen h-screen bg-black dark:bg-white flex flex-col items-center py-4 transition-all">
+    <div className="w-screen h-screen bg-black dark:bg-white flex flex-col items-center py-4 transition-all relative">
+      <GlobalParticles />
       <Navbar />
       <Header />
       <CarouselProvider>

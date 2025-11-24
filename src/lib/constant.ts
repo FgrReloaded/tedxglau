@@ -1,6 +1,6 @@
 import { Event } from "./types";
 
-export const speakers = [
+export const speakers2024 = [
     {
         name: "Pallavi Mahajan",
         designation: "Sustainability Pioneer",
@@ -65,6 +65,72 @@ export const speakers = [
         bioOne: "Indresh Upadhyay Ji is revered for his profound spiritual wisdom and deep connection to the Bhagwat Katha, a sacred Hindu scripture.",
         bioTwo: "Through his devotional songs, he creates an atmosphere of divine bliss, inspiring joy and devotion among his audience.",
         image: "/images/speakers/indresh.png"
+    }
+]
+
+export const speakers = [
+    {
+        name: "Raj K Agarwal",
+        designation: "Education & Entrepreneurship Leader",
+        bioOne: "Raj K. Agarwal is a distinguished leader in the field of education and entrepreneurship, driven by a vision to make high-quality learning accessible across the nation. A renowned All India CA Rank Holder and accomplished author, he exemplifies academic merit combined with innovative leadership.",
+        bioTwo: "As the Founder and Chief Executive Officer of the government-recognized startup, Study At Home Pvt. Ltd., he has been instrumental in transforming digital education through scalable and impactful learning solutions. In addition to his entrepreneurial achievements, he serves as a Director at the MSME Startup Forum, actively contributing to the growth and advancement of India’s startup ecosystem.",
+        image: "/images/speakers/raj_k_agarwal.png"
+    },
+    {
+        name: "Mukesh Jain",
+        designation: "Techno-Business Leader",
+        bioOne: "Mukesh Jain is an eminent Techno-Business leader with over three decades of experience driving large-scale innovation in global organizations. With deep expertise in Artificial Intelligence, Big Data, Analytics, and product engineering, he has led transformative technology initiatives across industries and built high-performing Global Capability Centers (GCCs) across India.",
+        bioTwo: "His distinguished career includes 13 impactful years at Microsoft, followed by influential leadership roles at Reliance Jio, NICE Systems, VFS Global, and currently as the Chief Technology Officer at Capgemini. In his role at Capgemini, he champions AI-driven solutions and breakthrough digital transformation strategies, shaping the future of technological advancement.",
+        image: "/images/speakers/mukesh_jain.png"
+    },
+    {
+        name: "Dr. Taniya Bakshi",
+        designation: "Homeopathic Physician & Wellness Entrepreneur",
+        bioOne: "Dr. Taniya Bakshi is a distinguished homeopathic physician, wellness entrepreneur, and TEDx speaker committed to making holistic health both accessible and easy to understand. Her practice spans hormonal, skin, endocrine, and digestive health, complemented by a strong emphasis on mental and emotional well-being.",
+        bioTwo: "Through her impactful digital presence, she educates and guides individuals on mindful living, preventive healthcare, and compassionate healing. As a creator and mentor, she empowers people to take informed control of their health with clarity and confidence.",
+        image: "/images/speakers/taniya_bakshi.png"
+    },
+    {
+        name: "Pramodini Roul",
+        designation: "Acid-Attack Survivor & Activist",
+        bioOne: "Pramodini Roul, an acid-attack survivor, has transformed her journey into a powerful mission for resilience, justice, and women’s empowerment. Dedicated to supporting survivors and advancing awareness around violence against women, she continues to challenge societal barriers through her impactful activism and lived experience.",
+        bioTwo: "Her work focuses on promoting dignity, rehabilitation, and equal rights, inspiring many to confront injustice with courage and hope. As a motivational speaker and changemaker, she stands as a symbol of strength and unwavering determination.",
+        image: "/images/speakers/pramodini_roul.png"
+    },
+    {
+        name: "Shree Malhotra",
+        designation: "Spiritual Guide",
+        bioOne: "Shree Kishori Ji is a revered spiritual guide and content creator who inspires millions through teachings rooted in devotion, mindfulness, and the wisdom of the Bhagavad Gita. Her work integrates motivational insight with practical spiritual guidance, empowering individuals to cultivate clarity, peace, and purpose in their everyday lives.",
+        bioTwo: "With a deeply engaged digital community, she promotes values of kindness, service, inner discipline, and conscious living. Through her foundation and various social initiatives, she continues to encourage meaningful transformation and foster a culture of compassion and spiritual growth.",
+        image: "/images/speakers/shree_malhotra.png"
+    },
+    {
+        name: "Adhyuth Ramadyani",
+        designation: "Sales Leader",
+        bioOne: "Adhyuth Ramadyani is a distinguished sales leader with over two decades of experience in driving measurable business growth and steering large-scale revenue strategies. Recognized for building high-performance teams and securing major global partnerships, he brings a strategic, tech-enabled approach to customer success and organizational expansion.",
+        bioTwo: "His leadership is fueled by a strong commitment to mentoring emerging talent and staying ahead of evolving industry trends. Beyond his corporate accomplishments, he serves as the founder of the Pawsters Foundation, an initiative dedicated to rescuing and rehabilitating injured stray dogs.",
+        image: "/images/speakers/adhyuth_ramadyani.png"
+    },
+    {
+        name: "Preeti Singh",
+        designation: "Journalist",
+        bioOne: "Preeti Singh is a distinguished face of Hindi television journalism, recognized for bringing clarity, depth, and confidence to every news bulletin she anchors on Zee News. Known for her sharp presentation and strong command of current affairs, she simplifies complex stories with precision, making them accessible and engaging for viewers across the nation.",
+        bioTwo: "Her on-screen presence reflects professionalism, credibility, and an unwavering commitment to factual reporting. Through impactful storytelling and steadfast journalistic integrity, she continues to inform, influence, and inspire audiences every day.",
+        image: "/images/speakers/preeti_singh.png"
+    },
+    {
+        name: "Major Bhavna Chauhan",
+        designation: "Former Indian Army Officer & Author",
+        bioOne: "Major Bhavna Chauhan is a distinguished former Indian Army officer who graduated as a top-ranking cadet from the Officers Training Academy. She served with excellence in the Army Corps of Engineers before transitioning into writing and creative leadership. As the author of Where Girls Dare, she brings authentic military experiences to life through impactful and inspiring storytelling.",
+        bioTwo: "An architect by training and a motivational speaker by passion, she actively advocates for women’s empowerment and equal opportunities within the armed forces. Her journey continues to exemplify courage, resilience, and purposeful leadership.",
+        image: "/images/speakers/bhavna_chauhan.png"
+    },
+    {
+        name: "Sarthak Mittal",
+        designation: "Global CEO & Branding Strategist",
+        bioOne: "Sarthak Mittal is a global CEO and branding strategist who leads high-impact ventures across India, the United States, and the United Kingdom. He specializes in building powerful, purpose-driven personal brands for authors, coaches, influencers, and organizations, combining mindset, strategic clarity, and sustainable growth.",
+        bioTwo: "Guided by a mission to empower 10 million youth and small businesses by 2030, he has developed widely trusted initiatives such as the Global Branding Incubator and his signature 5-Pillar Strategy. Rising from a collapsed family legacy to establishing multiple global enterprises, he exemplifies resilience, reinvention, and entrepreneurial leadership.",
+        image: "/images/speakers/sarthak_mittal.png"
     }
 ]
 
@@ -392,72 +458,72 @@ export const events: Record<string, Event> = {
         day: "Saturday",
         speakers: [
             {
-              name: "Amogh Liladas",
-              designation: "Spiritual Orator",
-              image: "/images/amogh_liladas.webp",
-              description: "Shree Amogh Lila Das is a well-known spiritual activist, motivational speaker, social worker, and Vice President at ISKCON Dwarka. He is a software engineer who chose the path of spirituality and became a monk. He worked as a software engineer from 2004 to 2010 but decided to serve a greater purpose in life. Shree Amogh Lila Das Ji is prominent in the spiritual activist community and shares scriptural knowledge with scientific proofs, stress management, anger management, and achieving eternal happiness through his YouTube channel. He has delivered motivational talks at renowned colleges and seminars like Nestle and Microsoft."
+                name: "Amogh Liladas",
+                designation: "Spiritual Orator",
+                image: "/images/amogh_liladas.webp",
+                description: "Shree Amogh Lila Das is a well-known spiritual activist, motivational speaker, social worker, and Vice President at ISKCON Dwarka. He is a software engineer who chose the path of spirituality and became a monk. He worked as a software engineer from 2004 to 2010 but decided to serve a greater purpose in life. Shree Amogh Lila Das Ji is prominent in the spiritual activist community and shares scriptural knowledge with scientific proofs, stress management, anger management, and achieving eternal happiness through his YouTube channel. He has delivered motivational talks at renowned colleges and seminars like Nestle and Microsoft."
             },
             {
-              name: "Dr Munish Jindal",
-              designation: "Entrepreneur",
-              image: "/images/dr_munish_jindal.webp",
-              description: "Dr. Munish Jindal is the Founder & CEO of HoverRobotix and the Founding President of MENTORx Global. He has been awarded the highest civilian honor 'Karmaveer Chakra' by the United Nations-iCongo and was named Noble Asian of the Year 2018. A 5-time TEDx Speaker, he pursued an MBA at the University of Technology, Sydney, and is a CPA from Australia. He holds a Ph.D. in Robotics & Artificial Intelligence from the USA. Dr. Jindal has authored 12 books, holds 7 patents, and is known for launching the concepts of Hoverboards, autobots, and Mobility Robots in India. His initiative MENTORx has delivered over 2000 sessions globally, impacting more than 10 million individuals in 65+ countries."
+                name: "Dr Munish Jindal",
+                designation: "Entrepreneur",
+                image: "/images/dr_munish_jindal.webp",
+                description: "Dr. Munish Jindal is the Founder & CEO of HoverRobotix and the Founding President of MENTORx Global. He has been awarded the highest civilian honor 'Karmaveer Chakra' by the United Nations-iCongo and was named Noble Asian of the Year 2018. A 5-time TEDx Speaker, he pursued an MBA at the University of Technology, Sydney, and is a CPA from Australia. He holds a Ph.D. in Robotics & Artificial Intelligence from the USA. Dr. Jindal has authored 12 books, holds 7 patents, and is known for launching the concepts of Hoverboards, autobots, and Mobility Robots in India. His initiative MENTORx has delivered over 2000 sessions globally, impacting more than 10 million individuals in 65+ countries."
             },
             {
-              name: "Dr Nimal Raghavan",
-              designation: "Environmental Activist",
-              image: "/images/dr_nimal_raghavan.webp",
-              description: "Dr. Nimal Raghavan is a water warrior, environmental activist, Founder of the MEGA (Make Earth Green Again) Foundation, and ambassador of Biotasoil. He is the Vice-President of KAIFA (Kadaimadai Area Integrated Farmers Association), working on the betterment of farmers and fishermen through rejuvenation of water bodies, tree plantations, and rainwater harvesting. He has also served as an Advisor to the Animal Welfare Board Abu Dhabi. Nimal focuses on organic farming, water body rejuvenation, and climate change."
+                name: "Dr Nimal Raghavan",
+                designation: "Environmental Activist",
+                image: "/images/dr_nimal_raghavan.webp",
+                description: "Dr. Nimal Raghavan is a water warrior, environmental activist, Founder of the MEGA (Make Earth Green Again) Foundation, and ambassador of Biotasoil. He is the Vice-President of KAIFA (Kadaimadai Area Integrated Farmers Association), working on the betterment of farmers and fishermen through rejuvenation of water bodies, tree plantations, and rainwater harvesting. He has also served as an Advisor to the Animal Welfare Board Abu Dhabi. Nimal focuses on organic farming, water body rejuvenation, and climate change."
             },
             {
-              name: "Murrad Beigh",
-              designation: "Fintech Entrepreneur",
-              image: "/images/murrad_beigh.webp",
-              description: "Murrad Beigh is an educational consultant and Co-founder of Fin-ladder. A finance professional and experienced content writer, he graduated from Delhi University. Fin-ladder provides finance courses to learners across India and abroad. With experience teaching over 60,000 learners, Murrad's content has greatly benefited young minds exploring finance. His research and content have been instrumental for students in the field of finance."
+                name: "Murrad Beigh",
+                designation: "Fintech Entrepreneur",
+                image: "/images/murrad_beigh.webp",
+                description: "Murrad Beigh is an educational consultant and Co-founder of Fin-ladder. A finance professional and experienced content writer, he graduated from Delhi University. Fin-ladder provides finance courses to learners across India and abroad. With experience teaching over 60,000 learners, Murrad's content has greatly benefited young minds exploring finance. His research and content have been instrumental for students in the field of finance."
             },
             {
-              name: "Nimisha Bansal",
-              designation: "Educator",
-              image: "/images/nimisha_bansal.webp",
-              description: "Nimisha Bansal is a Top Educator, author, and motivator specializing in English subjects. An alumnus of a prestigious university, she has devoted her life to education, grooming lakhs of students across the country. By offering regular free classes, Nimisha has gained millions of views on her videos. She has trained an average of 10,000+ students annually to achieve their dream jobs, with many now employed in public sector banks and government organizations. Nimisha believes in making education accessible to all who love learning."
+                name: "Nimisha Bansal",
+                designation: "Educator",
+                image: "/images/nimisha_bansal.webp",
+                description: "Nimisha Bansal is a Top Educator, author, and motivator specializing in English subjects. An alumnus of a prestigious university, she has devoted her life to education, grooming lakhs of students across the country. By offering regular free classes, Nimisha has gained millions of views on her videos. She has trained an average of 10,000+ students annually to achieve their dream jobs, with many now employed in public sector banks and government organizations. Nimisha believes in making education accessible to all who love learning."
             },
             {
-              name: "Paritosh Anand",
-              designation: "Digital Creator",
-              image: "/images/paritosh_anand.webp",
-              description: "Paritosh Anand is a 23-year-old entrepreneur, Founder of We Smile Media & Believe Clothing, public speaker, director, filmmaker, content creator, and founder of Dream of The Defence, an online course for defence aspirants. He co-hosts '2 Peas In A Pod,' India's top comedy podcast, and has spoken at numerous events including Josh Talk at IIT Delhi. With over 200k+ social media followers, he has delivered over 100 keynotes across India and is a four-time TEDx speaker. Paritosh is also working on his first book."
+                name: "Paritosh Anand",
+                designation: "Digital Creator",
+                image: "/images/paritosh_anand.webp",
+                description: "Paritosh Anand is a 23-year-old entrepreneur, Founder of We Smile Media & Believe Clothing, public speaker, director, filmmaker, content creator, and founder of Dream of The Defence, an online course for defence aspirants. He co-hosts '2 Peas In A Pod,' India's top comedy podcast, and has spoken at numerous events including Josh Talk at IIT Delhi. With over 200k+ social media followers, he has delivered over 100 keynotes across India and is a four-time TEDx speaker. Paritosh is also working on his first book."
             },
             {
-              name: "Prashant Kumar Mishra",
-              designation: "Entrepreneur",
-              image: "/images/prashant_kumar_mishra.webp",
-              description: "Prashant Kumar Mishra is the founder and CEO of TechXR Innovations Pvt. Ltd. He started his career as a Design Engineer and later worked in the Income Tax Department and Enforcement Directorate. After taking a six-month break to explore the tech field, he developed innovations that were selected among the top 30 in the 5G hackathon by the Government of India. His company focuses on bridging the gap between hardware and technology, creating patented custom hardware solutions for Augmented, Virtual, and Mixed Reality applications."
+                name: "Prashant Kumar Mishra",
+                designation: "Entrepreneur",
+                image: "/images/prashant_kumar_mishra.webp",
+                description: "Prashant Kumar Mishra is the founder and CEO of TechXR Innovations Pvt. Ltd. He started his career as a Design Engineer and later worked in the Income Tax Department and Enforcement Directorate. After taking a six-month break to explore the tech field, he developed innovations that were selected among the top 30 in the 5G hackathon by the Government of India. His company focuses on bridging the gap between hardware and technology, creating patented custom hardware solutions for Augmented, Virtual, and Mixed Reality applications."
             },
             {
-              name: "Rajat Jain",
-              designation: "Medical Innovator",
-              image: "/images/rajat_jain.webp",
-              description: "Rajat Jain is the founder of Spandan ECG and co-founder of Sunfox Technologies. His company focuses on 'Made in India, Made for World' products. Spandan is a pocket-sized ECG device that connects to smartphones for detailed heart analysis, offering 99.7% accuracy and helping many during the pandemic. They have featured on Shark Tank India, raising 1 crore in funding. Rajat's work emphasizes fulfilling responsibilities to both the nation and the world through innovative medical technology."
+                name: "Rajat Jain",
+                designation: "Medical Innovator",
+                image: "/images/rajat_jain.webp",
+                description: "Rajat Jain is the founder of Spandan ECG and co-founder of Sunfox Technologies. His company focuses on 'Made in India, Made for World' products. Spandan is a pocket-sized ECG device that connects to smartphones for detailed heart analysis, offering 99.7% accuracy and helping many during the pandemic. They have featured on Shark Tank India, raising 1 crore in funding. Rajat's work emphasizes fulfilling responsibilities to both the nation and the world through innovative medical technology."
             },
             {
-              name: "Ramesh Kumar Soni",
-              designation: "Tech Innovator",
-              image: "/images/ramesh_kumar_soni.webp",
-              description: "Ramesh Kumar Soni is the Founder and CEO of VayuJal Technologies Private Limited. An interdisciplinary researcher and water professional, he is developing a system for drinking water supply at IIT Madras and VayuJal Technologies. His passion for collaborative research aims to bring emerging water-cleaning technology to practical applications. Previously, he has worked on perovskite thin film synthesis, self-assembly, and theoretical molecular physics at IISER-Bhopal, IISc-Bangalore, and IIT-Madras."
+                name: "Ramesh Kumar Soni",
+                designation: "Tech Innovator",
+                image: "/images/ramesh_kumar_soni.webp",
+                description: "Ramesh Kumar Soni is the Founder and CEO of VayuJal Technologies Private Limited. An interdisciplinary researcher and water professional, he is developing a system for drinking water supply at IIT Madras and VayuJal Technologies. His passion for collaborative research aims to bring emerging water-cleaning technology to practical applications. Previously, he has worked on perovskite thin film synthesis, self-assembly, and theoretical molecular physics at IISER-Bhopal, IISc-Bangalore, and IIT-Madras."
             },
             {
-              name: "Sidharth Swarup",
-              designation: "Entrepreneur",
-              image: "/images/sidharth_swarup.webp",
-              description: "Sidharth Swarup is the Managing Director at Ingenuity Gaming, a leading service provider in the global land-based and online/mobile gambling industry. With a background in the gaming industry since 2005, his company is now a major player in this field. Sidharth has also served as a consultant at PepsiCo India and as Director at Media run Search in London. His expertise includes building corporate strategies, setting long-term goals, and promoting leadership and creativity within organizations."
+                name: "Sidharth Swarup",
+                designation: "Entrepreneur",
+                image: "/images/sidharth_swarup.webp",
+                description: "Sidharth Swarup is the Managing Director at Ingenuity Gaming, a leading service provider in the global land-based and online/mobile gambling industry. With a background in the gaming industry since 2005, his company is now a major player in this field. Sidharth has also served as a consultant at PepsiCo India and as Director at Media run Search in London. His expertise includes building corporate strategies, setting long-term goals, and promoting leadership and creativity within organizations."
             },
             {
-              name: "Vivek Atray",
-              designation: "Ex-IAS Officer",
-              image: "/images/vivek_atray.webp",
-              description: "Vivek Atray is the Chairman of the Yogananda Centre for Theology, Visiting Professor at Shoolini University, founder of SUVICHAR-THINK TANK, and Chairman of PRCI (Public Relations Council of India) in Chandigarh. An ex-IAS officer, he inspires thousands with his cheerful, positive, and multifaceted approach to life. He is a celebrated orator, speaking at numerous events in India and abroad, including universities, colleges, schools, and private companies. Vivek is also involved in several literary and cultural organizations."
+                name: "Vivek Atray",
+                designation: "Ex-IAS Officer",
+                image: "/images/vivek_atray.webp",
+                description: "Vivek Atray is the Chairman of the Yogananda Centre for Theology, Visiting Professor at Shoolini University, founder of SUVICHAR-THINK TANK, and Chairman of PRCI (Public Relations Council of India) in Chandigarh. An ex-IAS officer, he inspires thousands with his cheerful, positive, and multifaceted approach to life. He is a celebrated orator, speaking at numerous events in India and abroad, including universities, colleges, schools, and private companies. Vivek is also involved in several literary and cultural organizations."
             }
-          ]
+        ]
     },
 }
 
@@ -496,45 +562,50 @@ export const socialMedia = [
 
 export const teamHeads = [
     {
-        name: "Uday Gupta",
-        designation: "Organiser",
-        pic: "/images/heads/1.png",
+        name: "Dr Anoop Gupta",
+        designation: "Organizer",
+        pic: "/images/heads/organizer.png",
     },
     {
-        name: "Sneha Agarwal",
+        name: "Abhishek Gautam",
+        designation: "Co-Organizer",
+        pic: "/images/heads/co-organizer.png",
+    },
+    {
+        name: "Deepak Sharma",
         designation: "Ambassador",
-        pic: "/images/heads/3.png",
+        pic: "/images/heads/Ambassador.png",
     },
     {
-        name: "Ansh Gaur",
-        designation: "Co-Organiser",
-        pic: "/images/heads/2.png",
-    },
-    {
-        name: "Drashya Kathuria",
-        designation: "Curator",
-        pic: "/images/heads/4.png",
-    },
-    {
-        name: "Hardik Mishra",
-        designation: "Head Data & Finance",
-        pic: "/images/heads/5.png",
-    },
-    {
-        name: "Bhuvnesh",
-        designation: "Head Media & Publicity",
-        pic: "/images/heads/8.png",
-    },
-    {
-        name: "Saurav Kumar",
-        designation: "Head Design",
-        pic: "/images/heads/7.png",
-    },
-    {
-        name: "Nitish Kumar",
-        designation: "Web & IT Head",
-        pic: "/images/heads/6.png",
+        name: "Ravikumar Tiwari",
+        designation: "Vice President",
+        pic: "/images/heads/VicePresident.png",
     }
+]
+
+export const hostTeam = [
+    "/images/teams/host/1.png",
+    "/images/teams/host/2.png",
+    "/images/teams/host/3.png",
+    "/images/teams/host/4.png",
+    "/images/teams/host/5.png",
+    "/images/teams/host/6.png",
+    "/images/teams/host/7.png",
+    "/images/teams/host/8.png",
+]
+
+export const cohostTeam = [
+    "/images/teams/cohost/9.png",
+    "/images/teams/cohost/10.png",
+    "/images/teams/cohost/11.png",
+    "/images/teams/cohost/12.png",
+    "/images/teams/cohost/13.png",
+    "/images/teams/cohost/14.png",
+    "/images/teams/cohost/15.png",
+    "/images/teams/cohost/16.png",
+    "/images/teams/cohost/17.png",
+    "/images/teams/cohost/18.png",
+    "/images/teams/cohost/19.png",
 ]
 
 export const teams = [

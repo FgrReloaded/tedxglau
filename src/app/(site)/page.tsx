@@ -13,11 +13,52 @@ export default function Page() {
 
   return (
     <>
-      <HeroSection tagline="Creativity Unveils Mind" />
-      <h1 style={oswald.style} className="text-7xl mt-6 font-bold text-center uppercase bg-clip-text bg-gradient-to-r dark:from-red-300 dark:to-slate-600 from-slate-900 to-slate-400 text-transparent">Join <br /> <span className="text-tedx text-8xl">Ted<span className="text-4xl content-start">X</span></span>Glau 20<span className="text-tedx text-8xl">24</span></h1>
+      <HeroSection tagline="Thought Inspire True Success" />
+      
+      <div className="flex justify-center mb-4 mt-16 flex-col items-center gap-2">
+        <BlurIn
+          duration={1}
+          word="Save the date"
+          className="text-7xl font-bold mt-2 uppercase text-transparent bg-gradient-to-r dark:from-red-300 dark:to-slate-600 from-slate-900 to-slate-400 bg-clip-text"
+        />
+        <Timer />
+      </div>
+      
+      {/* Theme Video Section */}
+      <div className="relative w-full overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent via-transparent to-black z-0 pointer-events-none"></div>
+        <video 
+          className="w-full h-[40vh] md:h-[70vh] object-contain md:object-cover opacity-80 mix-blend-screen" 
+          muted 
+          autoPlay
+          loop
+          playsInline
+          preload="metadata"
+        >
+          <source src="/THEME VIDEO - TEDxGLAU.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <h1 style={oswald.style} className="text-7xl mt-6 font-bold text-center uppercase bg-clip-text bg-gradient-to-r dark:from-red-300 dark:to-slate-600 from-slate-900 to-slate-400 text-transparent">Join <br /> <span className="text-tedx text-8xl">Ted<span className="text-4xl content-start">X</span></span>Glau 8.<span className="text-tedx text-8xl">0</span></h1>
       <p className="mx-auto uppercase text-gray-400 w-fit border-t border-gray-800">Organised by E-CELL GLAU</p>
       <p className="text-lg md:text-2xl text-center uppercase py-4 md:w-1/2 mx-auto text-transparent bg-clip-text bg-gradient-to-b from-gray-300 to-gray-900 dark:from-gray-900 dark:to-gray-300">for an unforgettable experience with groundbreaking ideas and influential </p>
       <Speakers />
+      
+      {/* Web Video Section */}
+      <div className="relative w-full overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent via-transparent to-black z-0 pointer-events-none"></div>
+        <video 
+          className="w-full h-[40vh] md:h-[70vh] object-contain md:object-cover opacity-80 mix-blend-screen" 
+          muted 
+          autoPlay
+          loop
+          playsInline
+          preload="metadata"
+        >
+          <source src="/TEDxGLAU WEB VID.mp4" type="video/mp4" />
+        </video>
+      </div>
+
       <div className="flex mt-6 flex-col gap-6">
         <p className="text-4xl text-center font-bold mt-2 uppercase text-transparent bg-gradient-to-tr dark:from-black dark:to-tedx from-slate-400 to-slate-900 bg-clip-text">
           Become a part of overwhelming experience
@@ -48,15 +89,9 @@ export default function Page() {
           </Link>
         </div>
       </div>
-      <div className="flex justify-center mb-4 mt-32 flex-col items-center gap-2">
-        <div className='w-full h-[2px] bg-gradient-to-r from-transparent via-indigo-500 to-transparent blur-sm' />
-        <BlurIn
-          duration={1}
-          word="Save the date"
-          className="text-7xl font-bold mt-2 uppercase text-transparent bg-gradient-to-r dark:from-red-300 dark:to-slate-600 from-slate-900 to-slate-400 bg-clip-text"
-        />
-        <Timer />
-      </div>
+
+
+
 
     </>
 

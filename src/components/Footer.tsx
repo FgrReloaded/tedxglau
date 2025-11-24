@@ -2,9 +2,17 @@ import React from 'react'
 
 const Footer = () => {
   return (
-        <footer className="w-full mt-12 py-6 mb-4 flex md:flex-row flex-col gap-1 sm:gap-0 items-center sm:justify-between px-5 text-xs sm:text-sm">
-        <p><span className='text-tedx'>©</span> Copyright <span className='text-tedx'>TEDxGLAU</span>. All Rights Reserved</p>
-        <p>Designed & Developed by <span className='text-tedx'>TEDxGLAU</span> Web Team</p>
+    <footer className="w-full mt-16 py-8">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col items-center gap-4">
+        <div className="flex items-center gap-6 text-sm text-gray-400">
+          <span>© 2024 <span className='text-tedx'>TEDxGLAU</span></span>
+          <span>•</span>
+          <span>All Rights Reserved</span>
+        </div>
+        <p className="text-xs text-gray-500 text-center">
+          Designed & Developed by <span className='text-tedx'>TEDxGLAU Web Team</span>
+        </p>
+      </div>
     </footer>
   )
 }

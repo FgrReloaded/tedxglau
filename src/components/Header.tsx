@@ -1,4 +1,4 @@
-import { ModeToggle } from "./ModeToggle"
+
 import { HoverBorderGradient } from "./ui/hover-border-gradient"
 import Link from "next/link"
 
@@ -22,7 +22,7 @@ export const Header = () => {
             <span className='w-[10%] h-full md:bg-white dark:md:bg-black absolute -right-[10%] top-0' />
             <span className='w-[10%] h-full bg-black dark:bg-white rounded-es-3xl absolute -right-[10%]' />
 
-            <ModeToggle />
+
         </div>
     )
 }
