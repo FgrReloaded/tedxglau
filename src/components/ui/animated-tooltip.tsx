@@ -17,6 +17,7 @@ export const AnimatedTooltip = ({
     name: string;
     designation: string;
     image: string;
+    url?: string;
   }[];
 }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -77,14 +78,27 @@ export const AnimatedTooltip = ({
               </motion.div>
             )}
           </AnimatePresence>
-          <Image
-            onMouseMove={handleMouseMove}
-            height={100}
-            width={100}
-            src={item.image}
-            alt={item.name}
-            className="object-cover !m-0 !p-0 object-top h-14 w-14 group-hover:scale-105 group-hover:z-30  relative transition duration-500"
-          />
+          {item.url ? (
+            <a href={item.url} target="_blank" rel="noopener noreferrer">
+              <Image
+                onMouseMove={handleMouseMove}
+                height={100}
+                width={100}
+                src={item.image}
+                alt={item.name}
+                className="object-cover !m-0 !p-0 object-top h-14 w-14 group-hover:scale-105 group-hover:z-30  relative transition duration-500 cursor-pointer"
+              />
+            </a>
+          ) : (
+            <Image
+              onMouseMove={handleMouseMove}
+              height={100}
+              width={100}
+              src={item.image}
+              alt={item.name}
+              className="object-cover !m-0 !p-0 object-top h-14 w-14 group-hover:scale-105 group-hover:z-30  relative transition duration-500"
+            />
+          )}
         </div>
       ))}
     </>

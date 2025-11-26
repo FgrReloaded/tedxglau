@@ -4,6 +4,7 @@ export type Event = {
     organizer: string;
     day: string;
     date: string;
+    venue?: string;
     speakers?: {
         name: string;
         designation: string;

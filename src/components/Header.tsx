@@ -11,7 +11,7 @@ export const Header = () => {
                     as="button"
                     className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
                 >
-                    <Link target="_blank" href={'https://docs.google.com/forms/d/e/1FAIpQLSeiGDC_Wi-HuaCm530y7lVCZxM4Kx0u-b73hav8YtpRLQaALw/viewform'}>
+                    <Link target="_blank" href={'https://forms.gle/kEtp9vN4xUy7YUxy8'}>
                         <span className='md:text-base text-sm'>Get Tickets Now</span>
                     </Link>
                 </HoverBorderGradient>

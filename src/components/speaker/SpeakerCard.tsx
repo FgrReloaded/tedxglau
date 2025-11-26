@@ -16,7 +16,7 @@ const SpeakerCard = ({ speaker, reverse }: SpeakerCardProps) => {
             <SpeakerImg src={speaker?.image} />
             <Card className='md:w-1/2 w-4/5  bg-transparent dark:bg-transparent border-none md:px-4 cursor-default'>
                 <BoxReveal boxColor={"#eb0027"} duration={0.5}>
-                    <p className="text-base text-center md:text-justify uppercase pt-4 mx-auto leading-6"><span className='text-tedx bg-none'>{speaker?.name}</span><span className='text-transparent bg-clip-text bg-gray-800 dark:bg-gray-400'>, {speaker.bioOne}</span></p>
+                    <p className="text-base text-center md:text-justify uppercase pt-4 mx-auto leading-6"><span className='text-tedx font-semibold'>{speaker?.name}</span><span className='text-transparent bg-clip-text bg-gray-800 dark:bg-gray-400'>{speaker.bioOne}</span></p>
                 </BoxReveal>
                 <BoxReveal boxColor={"#eb0027"} duration={0.5}>
                     <p className="text-base text-center md:text-justify uppercase pb-4 mx-auto text-transparent bg-clip-text bg-gradient-to-t from-gray-300 to-gray-900 dark:from-gray-900 dark:to-gray-300">{speaker.bioTwo}</p>

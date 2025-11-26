@@ -4,67 +4,76 @@ export const speakers2024 = [
     {
         name: "Pallavi Mahajan",
         designation: "Sustainability Pioneer",
-        bioOne: "Driven by a passion for sustainability, social impact, and gender justice in business strategy and policy. With 8+ years of experience at the intersection of business, social impact, and public policy, I bring expertise in leadership, communication, and stakeholder engagement to promote a more inclusive and sustainable world.",
-        bioTwo: "Core Skills: Business & Human Rights, ESG standards, Strategic partnerships and stakeholder engagement, Gender expertise in DEI and social norms, CSR program management and evaluation, Advocacy campaigns and public affairs, Keynote speaking and strategic communication.",
-        image: "/images/speakers/pallavi.png"
+        bioOne: "Driven by a passion for sustainability, social impact, and gender justice in business strategy and policy, Pallavi Mahajan brings over 8 years of transformative experience at the intersection of business, social impact, and public policy. Her expertise spans leadership development, strategic communication, and stakeholder engagement, all aimed at promoting a more inclusive and sustainable world. She has worked with leading organizations to integrate ESG standards and drive meaningful change in corporate practices.",
+        bioTwo: "Her core competencies include Business & Human Rights advocacy, ESG standards implementation, strategic partnerships and stakeholder engagement, gender expertise in DEI and social norms transformation, CSR program management and impact evaluation, advocacy campaigns and public affairs strategy, and keynote speaking on sustainability and strategic communication. Pallavi's work has influenced policy changes and inspired organizations to adopt more sustainable and equitable business practices.",
+        image: "/images/speakers/pallavi.png",
+        description: "Driven by a passion for sustainability, social impact, and gender justice in business strategy and policy, Pallavi Mahajan brings over 8 years of transformative experience at the intersection of business, social impact, and public policy. Her expertise spans leadership development, strategic communication, and stakeholder engagement, all aimed at promoting a more inclusive and sustainable world. She has worked with leading organizations to integrate ESG standards and drive meaningful change in corporate practices. Her core competencies include Business & Human Rights advocacy, ESG standards implementation, strategic partnerships and stakeholder engagement, gender expertise in DEI and social norms transformation, CSR program management and impact evaluation, advocacy campaigns and public affairs strategy, and keynote speaking on sustainability and strategic communication."
     },
     {
         name: "Anant Deshpande",
         designation: "Fintech Innovator",
-        bioOne: "Anant is a fintech entrepreneur focused on making finance inclusive. As co-founder of FinBox, he helps fintechs underwrite millions of borrowers using smartphone data, banking, and bureau insights. Since 2019, FinBox&apos;s alt-data score and APIs have powered credit decisions for over 25 million borrowers, originating INR 12,000 Cr in loans.",
-        bioTwo: "In the past year, FinBox has become a leading Data & API Platform in India, enabling instant credit for micro-entrepreneurs via its lending SDK. Anant is passionate about ML, credit underwriting, and follows India&apos;s FinTech disruption closely.",
+        bioOne: "Anant Deshpande is a visionary fintech entrepreneur dedicated to making finance truly inclusive for all. As co-founder of FinBox, he has revolutionized how fintechs underwrite millions of borrowers by leveraging smartphone data, banking information, and bureau insights. Since 2019, FinBox's innovative alt-data score and comprehensive APIs have powered credit decisions for over 25 million borrowers across India, successfully originating loans worth INR 12,000 Crores and transforming lives through accessible credit.",
+        bioTwo: "In recent years, FinBox has emerged as India's leading Data & API Platform, enabling instant credit access for micro-entrepreneurs through its cutting-edge lending SDK. Anant's deep passion for Machine Learning, credit underwriting innovation, and financial inclusion drives his work. He closely follows India's FinTech disruption and actively contributes to shaping the future of digital lending, ensuring that technology serves as a bridge to financial empowerment for underserved communities.",
         image: "/images/speakers/anant.png",
+        description: "Anant Deshpande is a visionary fintech entrepreneur dedicated to making finance truly inclusive for all. As co-founder of FinBox, he has revolutionized how fintechs underwrite millions of borrowers by leveraging smartphone data, banking information, and bureau insights. Since 2019, FinBox's innovative alt-data score and comprehensive APIs have powered credit decisions for over 25 million borrowers across India, successfully originating loans worth INR 12,000 Crores and transforming lives through accessible credit. In recent years, FinBox has emerged as India's leading Data & API Platform, enabling instant credit access for micro-entrepreneurs through its cutting-edge lending SDK. Anant's deep passion for Machine Learning, credit underwriting innovation, and financial inclusion drives his work."
     },
     {
         name: "Govind Krsna Das",
         designation: "Spiritual Chanter",
-        bioOne: "Govind Krishna Das is a prominent spiritual leader and influencer with a deep connection to Kurukshetra, India.",
-        bioTwo: "As a member of ISKCON, he spreads the teachings of Lord Krishna. His soulful voice and motivational speeches have captivated audiences, making him a beloved Kirtania.",
-        image: "/images/speakers/govind.png"
+        bioOne: "Govind Krishna Das is a prominent spiritual leader, influencer, and devotional artist with a profound connection to Kurukshetra, India - the sacred land where Lord Krishna delivered the Bhagavad Gita. His spiritual journey has touched millions of hearts across the globe, making him one of the most beloved voices in contemporary devotional music and spiritual discourse.",
+        bioTwo: "As a dedicated member of ISKCON (International Society for Krishna Consciousness), he spreads the timeless teachings of Lord Krishna through his soulful kirtan and powerful motivational speeches. His melodious voice and authentic devotion have captivated audiences worldwide, making him a beloved Kirtania whose performances create an atmosphere of divine connection. Through his music and words, he inspires people to discover inner peace, purpose, and spiritual fulfillment.",
+        image: "/images/speakers/govind.png",
+        description: "Govind Krishna Das is a prominent spiritual leader, influencer, and devotional artist with a profound connection to Kurukshetra, India - the sacred land where Lord Krishna delivered the Bhagavad Gita. His spiritual journey has touched millions of hearts across the globe, making him one of the most beloved voices in contemporary devotional music and spiritual discourse. As a dedicated member of ISKCON (International Society for Krishna Consciousness), he spreads the timeless teachings of Lord Krishna through his soulful kirtan and powerful motivational speeches. His melodious voice and authentic devotion have captivated audiences worldwide, making him a beloved Kirtania whose performances create an atmosphere of divine connection. Through his music and words, he inspires people to discover inner peace, purpose, and spiritual fulfillment."
     }
     ,
     {
         name: "Prateek Singhal",
         designation: "Entrepreneur",
-        bioOne: "Prateek is a seasoned leader with experience at startups like Zomato and Tata 1mg, and a background in management consulting and data science.",
-        bioTwo: "He founded Yoho to create high-quality, affordable footwear using advanced technology and AI. Prateek values work-life balance and enjoys classical Indian music, astrology, and meditation.",
-        image: "/images/speakers/prateek.png"
+        bioOne: "Prateek Singhal is a seasoned entrepreneur and business leader with extensive experience at India's leading startups including Zomato and Tata 1mg. His diverse background spans management consulting, data science, and product innovation, giving him a unique perspective on building scalable businesses that solve real-world problems. His journey through the startup ecosystem has equipped him with invaluable insights into consumer behavior and market dynamics.",
+        bioTwo: "He founded Yoho with a vision to democratize premium footwear by creating high-quality, affordable products using advanced technology and artificial intelligence. Prateek is a strong advocate for work-life balance and holistic living, finding inspiration in classical Indian music, astrology, and meditation. His approach to entrepreneurship combines data-driven decision making with mindful leadership, creating a company culture that values both innovation and well-being.",
+        image: "/images/speakers/prateek.png",
+        description: "Prateek Singhal is a seasoned entrepreneur and business leader with extensive experience at India's leading startups including Zomato and Tata 1mg. His diverse background spans management consulting, data science, and product innovation, giving him a unique perspective on building scalable businesses that solve real-world problems. His journey through the startup ecosystem has equipped him with invaluable insights into consumer behavior and market dynamics. He founded Yoho with a vision to democratize premium footwear by creating high-quality, affordable products using advanced technology and artificial intelligence. Prateek is a strong advocate for work-life balance and holistic living, finding inspiration in classical Indian music, astrology, and meditation. His approach to entrepreneurship combines data-driven decision making with mindful leadership."
     },
     {
         name: "Vimal Daga",
         designation: "Life Coach",
-        bioOne: "Vimal Daga is a distinguished Technologist and Technology Motivational Speaker renowned for his expertise in advanced technologies such as Machine Learning, AI, Deep Learning, IoT, and NLP.",
-        bioTwo: "He specializes in consulting and training senior management on high-end IT technologies, guiding companies to optimize their ROI through strategic technology adoption. His client roster includes major corporations like Wells Fargo, JP Morgan Chase, Bank of America, and GE.",
-        image: "/images/speakers/vimal.png"
+        bioOne: "Vimal Daga is a distinguished Technologist, Life Coach, and Technology Motivational Speaker renowned worldwide for his expertise in cutting-edge technologies including Machine Learning, Artificial Intelligence, Deep Learning, Internet of Things (IoT), and Natural Language Processing. With decades of experience in the technology sector, he has become a thought leader who bridges the gap between complex technical concepts and practical business applications.",
+        bioTwo: "He specializes in consulting and training senior management at Fortune 500 companies on high-end IT technologies, guiding organizations to optimize their ROI through strategic technology adoption and digital transformation. His impressive client roster includes major global corporations like Wells Fargo, JP Morgan Chase, Bank of America, and General Electric. Vimal's unique ability to inspire and educate has made him a sought-after speaker who empowers leaders to harness technology for business growth and innovation.",
+        image: "/images/speakers/vimal.png",
+        description: "Vimal Daga is a distinguished Technologist, Life Coach, and Technology Motivational Speaker renowned worldwide for his expertise in cutting-edge technologies including Machine Learning, Artificial Intelligence, Deep Learning, Internet of Things (IoT), and Natural Language Processing. With decades of experience in the technology sector, he has become a thought leader who bridges the gap between complex technical concepts and practical business applications. He specializes in consulting and training senior management at Fortune 500 companies on high-end IT technologies, guiding organizations to optimize their ROI through strategic technology adoption and digital transformation. His impressive client roster includes major global corporations like Wells Fargo, JP Morgan Chase, Bank of America, and General Electric. Vimal's unique ability to inspire and educate has made him a sought-after speaker who empowers leaders to harness technology for business growth and innovation."
     },
     {
         name: "Saarthak Bakshi",
         designation: "Medical Innovator",
-        bioOne: "Passionate about innovating at the crossroads of healthcare, technology, and entrepreneurship. With expertise in AI, IoT, and wearables, I focus on transforming healthcare and enhancing patient outcomes.",
-        bioTwo: "My background includes strategic management, business development, and social impact in healthcare tech. Committed to fostering innovation, I mentor and invest in the next generation of entrepreneurs to drive meaningful change in the industry.",
-        image: "/images/speakers/saarthak.png"
+        bioOne: "Saarthak Bakshi is a visionary medical innovator passionate about revolutionizing healthcare at the intersection of technology and entrepreneurship. With deep expertise in Artificial Intelligence, Internet of Things (IoT), and wearable technology, he focuses on transforming healthcare delivery systems and significantly enhancing patient outcomes. His work combines cutting-edge technology with compassionate care, creating solutions that make quality healthcare more accessible and effective.",
+        bioTwo: "His impressive background spans strategic management, business development, and social impact initiatives in healthcare technology. Saarthak is deeply committed to fostering innovation in the medical field and actively mentors and invests in the next generation of healthcare entrepreneurs. Through his guidance and support, he helps drive meaningful change in the industry, ensuring that technological advancements translate into real-world improvements in patient care and healthcare accessibility.",
+        image: "/images/speakers/saarthak.png",
+        description: "Saarthak Bakshi is a visionary medical innovator passionate about revolutionizing healthcare at the intersection of technology and entrepreneurship. With deep expertise in Artificial Intelligence, Internet of Things (IoT), and wearable technology, he focuses on transforming healthcare delivery systems and significantly enhancing patient outcomes. His work combines cutting-edge technology with compassionate care, creating solutions that make quality healthcare more accessible and effective. His impressive background spans strategic management, business development, and social impact initiatives in healthcare technology. Saarthak is deeply committed to fostering innovation in the medical field and actively mentors and invests in the next generation of healthcare entrepreneurs. Through his guidance and support, he helps drive meaningful change in the industry, ensuring that technological advancements translate into real-world improvements in patient care and healthcare accessibility."
     }
     ,
     {
         name: "Rahul Bhargava",
         designation: "Educationist",
-        bioOne: "Rahul Bhargava&apos;s journey from salesman to entrepreneur has shaped him into a leader committed to sharing his knowledge and empowering others.",
-        bioTwo: "He founded SheKunj, a platform supporting over 80,000 women through free courses and counseling, and is passionate about educating youth through tech workshops.",
-        image: "/images/speakers/rahul.png"
+        bioOne: "Rahul Bhargava's remarkable journey from a humble salesman to a successful entrepreneur and educationist has shaped him into an inspiring leader committed to sharing his knowledge and empowering others. His personal transformation story resonates with thousands who aspire to break barriers and create meaningful impact. Through his experiences, he has developed a deep understanding of the challenges faced by aspiring entrepreneurs and learners from diverse backgrounds.",
+        bioTwo: "He founded SheKunj, a groundbreaking platform that has supported over 80,000 women through free educational courses and professional counseling, helping them achieve financial independence and personal growth. Rahul is passionate about educating youth through innovative tech workshops and skill development programs, bridging the digital divide and creating opportunities for those who lack access to quality education. His work continues to transform lives and build a more inclusive society.",
+        image: "/images/speakers/rahul.png",
+        description: "Rahul Bhargava's remarkable journey from a humble salesman to a successful entrepreneur and educationist has shaped him into an inspiring leader committed to sharing his knowledge and empowering others. His personal transformation story resonates with thousands who aspire to break barriers and create meaningful impact. Through his experiences, he has developed a deep understanding of the challenges faced by aspiring entrepreneurs and learners from diverse backgrounds. He founded SheKunj, a groundbreaking platform that has supported over 80,000 women through free educational courses and professional counseling, helping them achieve financial independence and personal growth. Rahul is passionate about educating youth through innovative tech workshops and skill development programs, bridging the digital divide and creating opportunities for those who lack access to quality education."
     },
     {
         name: "Ranjana Singh Rathore",
         designation: "Journalist",
-        bioOne: "Ranjana Singh Rathore is a Popular TV Journalist from Udaipur, Rajasthan. She completed her Master&apos;s in broadcast journalism at MassCoMedia.",
-        bioTwo: "She works with prominent media houses such as India Today, FM News, and recently joined News Nation. Skilled in communication, public relations, and content writing.",
-        image: "/images/speakers/ranjana.png"
+        bioOne: "Ranjana Singh Rathore is a highly respected and popular TV journalist from Udaipur, Rajasthan, known for her incisive reporting and compelling storytelling. She completed her Master's degree in broadcast journalism from the prestigious MassCoMedia institute, where she honed her skills in investigative journalism, news presentation, and media ethics. Her dedication to truthful and impactful journalism has earned her recognition across the industry.",
+        bioTwo: "Throughout her distinguished career, she has worked with prominent media houses including India Today, FM News, and most recently joined News Nation, where she continues to deliver hard-hitting news coverage. Ranjana is exceptionally skilled in communication, public relations, content writing, and news anchoring. Her ability to connect with audiences and present complex stories in an accessible manner has made her a trusted voice in Indian journalism, inspiring aspiring journalists across the country.",
+        image: "/images/speakers/ranjana.png",
+        description: "Ranjana Singh Rathore is a highly respected and popular TV journalist from Udaipur, Rajasthan, known for her incisive reporting and compelling storytelling. She completed her Master's degree in broadcast journalism from the prestigious MassCoMedia institute, where she honed her skills in investigative journalism, news presentation, and media ethics. Her dedication to truthful and impactful journalism has earned her recognition across the industry. Throughout her distinguished career, she has worked with prominent media houses including India Today, FM News, and most recently joined News Nation, where she continues to deliver hard-hitting news coverage. Ranjana is exceptionally skilled in communication, public relations, content writing, and news anchoring. Her ability to connect with audiences and present complex stories in an accessible manner has made her a trusted voice in Indian journalism."
     },
     {
         name: "Indresh Upadhyay Ji",
         designation: "Spiritual Orator",
-        bioOne: "Indresh Upadhyay Ji is revered for his profound spiritual wisdom and deep connection to the Bhagwat Katha, a sacred Hindu scripture.",
-        bioTwo: "Through his devotional songs, he creates an atmosphere of divine bliss, inspiring joy and devotion among his audience.",
-        image: "/images/speakers/indresh.png"
+        bioOne: "Indresh Upadhyay Ji is a revered spiritual orator and devotional artist, celebrated for his profound spiritual wisdom and deep, authentic connection to the Bhagwat Katha, one of the most sacred Hindu scriptures. His mastery of ancient spiritual texts combined with his ability to make them relevant to modern life has made him a beloved figure in spiritual circles. His discourses are known for their depth, clarity, and transformative power.",
+        bioTwo: "Through his soul-stirring devotional songs and powerful spiritual discourses, he creates an atmosphere of divine bliss that transcends the ordinary and touches the hearts of thousands. His performances inspire deep joy, devotion, and spiritual awakening among his audience, helping them connect with their inner divinity. Indresh Ji's unique ability to blend traditional wisdom with contemporary understanding makes spirituality accessible and meaningful for people from all walks of life.",
+        image: "/images/speakers/indresh.png",
+        description: "Indresh Upadhyay Ji is a revered spiritual orator and devotional artist, celebrated for his profound spiritual wisdom and deep, authentic connection to the Bhagwat Katha, one of the most sacred Hindu scriptures. His mastery of ancient spiritual texts combined with his ability to make them relevant to modern life has made him a beloved figure in spiritual circles. His discourses are known for their depth, clarity, and transformative power. Through his soul-stirring devotional songs and powerful spiritual discourses, he creates an atmosphere of divine bliss that transcends the ordinary and touches the hearts of thousands. His performances inspire deep joy, devotion, and spiritual awakening among his audience, helping them connect with their inner divinity. Indresh Ji's unique ability to blend traditional wisdom with contemporary understanding makes spirituality accessible and meaningful for people from all walks of life."
     }
 ]
 
@@ -72,63 +81,63 @@ export const speakers = [
     {
         name: "Raj K Agarwal",
         designation: "Education & Entrepreneurship Leader",
-        bioOne: "Raj K. Agarwal is a distinguished leader in the field of education and entrepreneurship, driven by a vision to make high-quality learning accessible across the nation. A renowned All India CA Rank Holder and accomplished author, he exemplifies academic merit combined with innovative leadership.",
+        bioOne: "is a distinguished leader in the field of education and entrepreneurship, driven by a vision to make high-quality learning accessible across the nation. A renowned All India CA Rank Holder and accomplished author, he exemplifies academic merit combined with innovative leadership.",
         bioTwo: "As the Founder and Chief Executive Officer of the government-recognized startup, Study At Home Pvt. Ltd., he has been instrumental in transforming digital education through scalable and impactful learning solutions. In addition to his entrepreneurial achievements, he serves as a Director at the MSME Startup Forum, actively contributing to the growth and advancement of India’s startup ecosystem.",
         image: "/images/speakers/raj_k_agarwal.png"
     },
     {
         name: "Mukesh Jain",
         designation: "Techno-Business Leader",
-        bioOne: "Mukesh Jain is an eminent Techno-Business leader with over three decades of experience driving large-scale innovation in global organizations. With deep expertise in Artificial Intelligence, Big Data, Analytics, and product engineering, he has led transformative technology initiatives across industries and built high-performing Global Capability Centers (GCCs) across India.",
+        bioOne: " is an eminent Techno-Business leader with over three decades of experience driving large-scale innovation in global organizations. With deep expertise in Artificial Intelligence, Big Data, Analytics, and product engineering, he has led transformative technology initiatives across industries and built high-performing Global Capability Centers (GCCs) across India.",
         bioTwo: "His distinguished career includes 13 impactful years at Microsoft, followed by influential leadership roles at Reliance Jio, NICE Systems, VFS Global, and currently as the Chief Technology Officer at Capgemini. In his role at Capgemini, he champions AI-driven solutions and breakthrough digital transformation strategies, shaping the future of technological advancement.",
         image: "/images/speakers/mukesh_jain.png"
     },
     {
         name: "Dr. Taniya Bakshi",
         designation: "Homeopathic Physician & Wellness Entrepreneur",
-        bioOne: "Dr. Taniya Bakshi is a distinguished homeopathic physician, wellness entrepreneur, and TEDx speaker committed to making holistic health both accessible and easy to understand. Her practice spans hormonal, skin, endocrine, and digestive health, complemented by a strong emphasis on mental and emotional well-being.",
+        bioOne: " is a distinguished homeopathic physician, wellness entrepreneur, and TEDx speaker committed to making holistic health both accessible and easy to understand. Her practice spans hormonal, skin, endocrine, and digestive health, complemented by a strong emphasis on mental and emotional well-being.",
         bioTwo: "Through her impactful digital presence, she educates and guides individuals on mindful living, preventive healthcare, and compassionate healing. As a creator and mentor, she empowers people to take informed control of their health with clarity and confidence.",
         image: "/images/speakers/taniya_bakshi.png"
     },
     {
         name: "Pramodini Roul",
         designation: "Acid-Attack Survivor & Activist",
-        bioOne: "Pramodini Roul, an acid-attack survivor, has transformed her journey into a powerful mission for resilience, justice, and women’s empowerment. Dedicated to supporting survivors and advancing awareness around violence against women, she continues to challenge societal barriers through her impactful activism and lived experience.",
+        bioOne: ", an acid-attack survivor, has transformed her journey into a powerful mission for resilience, justice, and women’s empowerment. Dedicated to supporting survivors and advancing awareness around violence against women, she continues to challenge societal barriers through her impactful activism and lived experience.",
         bioTwo: "Her work focuses on promoting dignity, rehabilitation, and equal rights, inspiring many to confront injustice with courage and hope. As a motivational speaker and changemaker, she stands as a symbol of strength and unwavering determination.",
         image: "/images/speakers/pramodini_roul.png"
     },
     {
         name: "Shree Malhotra",
         designation: "Spiritual Guide",
-        bioOne: "Shree Kishori Ji is a revered spiritual guide and content creator who inspires millions through teachings rooted in devotion, mindfulness, and the wisdom of the Bhagavad Gita. Her work integrates motivational insight with practical spiritual guidance, empowering individuals to cultivate clarity, peace, and purpose in their everyday lives.",
+        bioOne: " is a revered spiritual guide and content creator who inspires millions through teachings rooted in devotion, mindfulness, and the wisdom of the Bhagavad Gita. Her work integrates motivational insight with practical spiritual guidance, empowering individuals to cultivate clarity, peace, and purpose in their everyday lives.",
         bioTwo: "With a deeply engaged digital community, she promotes values of kindness, service, inner discipline, and conscious living. Through her foundation and various social initiatives, she continues to encourage meaningful transformation and foster a culture of compassion and spiritual growth.",
         image: "/images/speakers/shree_malhotra.png"
     },
     {
         name: "Adhyuth Ramadyani",
         designation: "Sales Leader",
-        bioOne: "Adhyuth Ramadyani is a distinguished sales leader with over two decades of experience in driving measurable business growth and steering large-scale revenue strategies. Recognized for building high-performance teams and securing major global partnerships, he brings a strategic, tech-enabled approach to customer success and organizational expansion.",
+        bioOne: " is a distinguished sales leader with over two decades of experience in driving measurable business growth and steering large-scale revenue strategies. Recognized for building high-performance teams and securing major global partnerships, he brings a strategic, tech-enabled approach to customer success and organizational expansion.",
         bioTwo: "His leadership is fueled by a strong commitment to mentoring emerging talent and staying ahead of evolving industry trends. Beyond his corporate accomplishments, he serves as the founder of the Pawsters Foundation, an initiative dedicated to rescuing and rehabilitating injured stray dogs.",
         image: "/images/speakers/adhyuth_ramadyani.png"
     },
     {
         name: "Preeti Singh",
         designation: "Journalist",
-        bioOne: "Preeti Singh is a distinguished face of Hindi television journalism, recognized for bringing clarity, depth, and confidence to every news bulletin she anchors on Zee News. Known for her sharp presentation and strong command of current affairs, she simplifies complex stories with precision, making them accessible and engaging for viewers across the nation.",
+        bioOne: " is a distinguished face of Hindi television journalism, recognized for bringing clarity, depth, and confidence to every news bulletin she anchors on Zee News. Known for her sharp presentation and strong command of current affairs, she simplifies complex stories with precision, making them accessible and engaging for viewers across the nation.",
         bioTwo: "Her on-screen presence reflects professionalism, credibility, and an unwavering commitment to factual reporting. Through impactful storytelling and steadfast journalistic integrity, she continues to inform, influence, and inspire audiences every day.",
         image: "/images/speakers/preeti_singh.png"
     },
     {
         name: "Major Bhavna Chauhan",
         designation: "Former Indian Army Officer & Author",
-        bioOne: "Major Bhavna Chauhan is a distinguished former Indian Army officer who graduated as a top-ranking cadet from the Officers Training Academy. She served with excellence in the Army Corps of Engineers before transitioning into writing and creative leadership. As the author of Where Girls Dare, she brings authentic military experiences to life through impactful and inspiring storytelling.",
+        bioOne: " is a distinguished former Indian Army officer who graduated as a top-ranking cadet from the Officers Training Academy. She served with excellence in the Army Corps of Engineers before transitioning into writing and creative leadership. As the author of Where Girls Dare, she brings authentic military experiences to life through impactful and inspiring storytelling.",
         bioTwo: "An architect by training and a motivational speaker by passion, she actively advocates for women’s empowerment and equal opportunities within the armed forces. Her journey continues to exemplify courage, resilience, and purposeful leadership.",
         image: "/images/speakers/bhavna_chauhan.png"
     },
     {
         name: "Sarthak Mittal",
         designation: "Global CEO & Branding Strategist",
-        bioOne: "Sarthak Mittal is a global CEO and branding strategist who leads high-impact ventures across India, the United States, and the United Kingdom. He specializes in building powerful, purpose-driven personal brands for authors, coaches, influencers, and organizations, combining mindset, strategic clarity, and sustainable growth.",
+        bioOne: " is a global CEO and branding strategist who leads high-impact ventures across India, the United States, and the United Kingdom. He specializes in building powerful, purpose-driven personal brands for authors, coaches, influencers, and organizations, combining mindset, strategic clarity, and sustainable growth.",
         bioTwo: "Guided by a mission to empower 10 million youth and small businesses by 2030, he has developed widely trusted initiatives such as the Global Branding Incubator and his signature 5-Pillar Strategy. Rising from a collapsed family legacy to establishing multiple global enterprises, he exemplifies resilience, reinvention, and entrepreneurial leadership.",
         image: "/images/speakers/sarthak_mittal.png"
     }
@@ -525,6 +534,15 @@ export const events: Record<string, Event> = {
             }
         ]
     },
+    "7.0": {
+        tagLine: "Creativity Unveils Mind",
+        youtube: "https://www.youtube.com/embed/vBTE7mb4Qc4",
+        date: "September 13, 2024",
+        day: 'Friday',
+        organizer: "TEDxGLAU Team",
+        venue: "AB-2, EC Conference Hall",
+        speakers: speakers2024
+    },
 }
 
 export const socialMedia = [
@@ -533,30 +551,35 @@ export const socialMedia = [
         name: "Facebook",
         image: "/images/facebook.svg",
         designation: "Follow us on Facebook",
+        url: "https://www.facebook.com/tedxglau",
     },
     {
         id: 2,
         name: "Instagram",
         image: "/images/instagram.svg",
         designation: "Follow us on Instagram",
+        url: "https://www.instagram.com/tedxglau",
     },
     {
         id: 3,
         name: "LinkedIn",
         image: "/images/linkedin.svg",
         designation: "Follow us on LinkedIn",
+        url: "https://www.linkedin.com/company/tedxglau",
     },
     {
         id: 4,
         name: "X",
         image: "/images/twitter.svg",
         designation: "Follow us on X",
+        url: "https://twitter.com/tedxglau",
     },
     {
         id: 5,
         name: "YouTube",
         image: "/images/youtube.svg",
         designation: "Follow us on YouTube",
+        url: "https://www.youtube.com/@tedxglau",
     },
 ]
 

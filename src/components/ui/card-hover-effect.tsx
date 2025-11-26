@@ -21,7 +21,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-10 px-4",
         className
       )}
     >
@@ -49,7 +49,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
+          <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start w-full mx-auto p-4 relative min-h-[32rem] max-h-[36rem]">
             <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
             <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
             <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
@@ -64,7 +64,7 @@ export const HoverEffect = ({
             <p className="text-sm border font-light dark:border-tedx/[0.2] border-tedx/[0.2] rounded-full mt-4 text-tedx dark:text-tedx px-2 py-0.5">
               {item.designation}
             </p>
-            <p className="text-sm font-light dark:text-white text-black mt-4">
+            <p className="text-xs font-light dark:text-white text-black mt-4 overflow-y-auto flex-1 leading-relaxed">
               {item.description}
             </p>
           </div>

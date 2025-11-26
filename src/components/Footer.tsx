@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="w-full mt-16 py-8">
       <div className="max-w-6xl mx-auto px-4 flex flex-col items-center gap-4">
         <div className="flex items-center gap-6 text-sm text-gray-400">
-          <span>© 2024 <span className='text-tedx'>TEDxGLAU</span></span>
+          <span>© 2025 <span className='text-tedx'>TEDxGLAU</span></span>
           <span>•</span>
           <span>All Rights Reserved</span>
         </div>
