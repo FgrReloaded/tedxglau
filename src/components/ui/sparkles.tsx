@@ -38,10 +38,15 @@ export const SparklesCore = (props: ParticlesProps) => {
     });
   }, []);
   const controls = useAnimation();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const particlesLoaded = async (container?: Container) => {
-    if (container) {
-      controls.start({
+    if (container && mounted) {
+      await controls.start({
         opacity: 1,
         transition: {
           duration: 1,

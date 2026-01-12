@@ -16,7 +16,7 @@ export function TeamCard({src, name, designation}: TeamCardProps) {
 
   return (
     <div>
-      <div className="w-full relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#1D2235] to-[#121318] p-8 my-10">
+      <div className="w-full relative rounded-3xl overflow-hidden max-w-lg mx-auto bg-gradient-to-r from-[#1D2235] to-[#121318] p-10 my-12">
         <Rays />
         <Beams />
         <div className="relative z-10">
@@ -24,9 +24,9 @@ export function TeamCard({src, name, designation}: TeamCardProps) {
             <Image
               src={src}
               alt="image"
-              width={500}
-              height={500}
-              className="rounded-2xl"
+              width={600}
+              height={600}
+              className="rounded-2xl w-full h-auto"
             />
           </Lens>
           <motion.div

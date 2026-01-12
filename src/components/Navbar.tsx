@@ -57,7 +57,7 @@ const Navbar = () => {
 
     return (
         <div className='overflow-hidden'>
-            <span onClick={() => { setIsOpen(!isOpen) }} className='p-2 absolute top-[5%] right-[5%] rounded-full border-2 border-white dark:border-black cursor-pointer z-50'>
+            <span onClick={() => { setIsOpen(!isOpen) }} className='p-3 absolute top-[5%] right-[5%] rounded-full cursor-pointer z-[100] bg-black/50 backdrop-blur-md shadow-lg border border-white/20'>
                 {isOpen ? (
                     <motion.div
                         initial="initial"
@@ -66,7 +66,7 @@ const Navbar = () => {
                         variants={iconVariants}
                         key="x-icon"
                     >
-                        <X size={28} className='text-white dark:text-black' />
+                        <X size={32} strokeWidth={3} className='text-white font-bold' />
                     </motion.div>
                 ) : (
                     <motion.div
@@ -76,7 +76,7 @@ const Navbar = () => {
                         variants={iconVariants}
                         key="menu-icon"
                     >
-                        <Menu size={28} className='text-white dark:text-black' />
+                        <Menu size={32} strokeWidth={3} className='text-white font-bold' />
                     </motion.div>
                 )}
             </span>

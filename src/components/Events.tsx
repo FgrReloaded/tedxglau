@@ -49,7 +49,7 @@ export function Events() {
                     <CanvasRevealEffect
                         animationSpeed={5.1}
                         containerClassName="bg-black"
-                        colors={[[251, 216, 223]]}
+                        colors={[[255, 165, 0]]}
                     />
                     <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
                 </Card>
@@ -57,7 +57,15 @@ export function Events() {
                     <CanvasRevealEffect
                         animationSpeed={5.1}
                         containerClassName="bg-black"
-                        colors={[[251, 216, 223]]}
+                        colors={[[138, 43, 226]]}
+                    />
+                    <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
+                </Card>
+                <Card title="7.0" icon={<AceternityIcon />}>
+                    <CanvasRevealEffect
+                        animationSpeed={5.1}
+                        containerClassName="bg-black"
+                        colors={[[255, 20, 147]]}
                     />
                     <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
                 </Card>
@@ -109,8 +117,15 @@ const Card = ({
                 <div className="text-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center">
                     {icon}
                 </div>
-                <h2 className="text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10  mt-4 font-bold group-hover/canvas-card:-translate-y-2 transition duration-200 flex">
-                    <span className="text-tedx">TED</span><span className=" text-tedx text-xl font-extrabold">X</span><span className="bg-gradient-to-r dark:from-red-300 dark:to-slate-600 from-slate-900 to-slate-400 bg-clip-text text-transparent">GLAU</span> <span className="text-tedx ml-2">{title}</span>
+                <h2 className="text-2xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 mt-4 font-bold group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
+                    <div className="flex items-center justify-center mb-2">
+                        <span className="text-tedx text-3xl font-extrabold">TED</span>
+                        <span className="text-tedx text-xl font-extrabold">X</span>
+                        <span className="bg-gradient-to-r dark:from-red-300 dark:to-slate-600 from-slate-900 to-slate-400 bg-clip-text text-transparent text-3xl font-bold">GLAU</span>
+                    </div>
+                    <div className="text-4xl font-extrabold">
+                        <span className="bg-gradient-to-r from-tedx to-red-400 bg-clip-text text-transparent">Series {title}</span>
+                    </div>
                 </h2>
             </div>
         </div>

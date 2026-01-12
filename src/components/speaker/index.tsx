@@ -3,7 +3,8 @@ import { SparklesCore } from '../ui/sparkles'
 import SpeakerCard from './SpeakerCard'
 import { speakers } from '@/lib/constant'
 
-const Speakers = () => {
+const Speakers = ({ speakers: propSpeakers }: { speakers?: typeof speakers }) => {
+  const speakersList = propSpeakers || speakers;
   return (
     <div className="w-full bg-transparent dark:bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-7xl text-6xl lg:text-9xl font-bold text-center text-transparent bg-gradient-to-b bg-clip-text dark:from-tedx from-black dark:to-black  relative z-20  mt-8">
@@ -28,8 +29,8 @@ const Speakers = () => {
       </div>
       <div className='flex flex-col gap-2'>
         {
-          speakers.map((speaker, index) => (
-            <SpeakerCard key="index" reverse={index % 2 === 0} speaker={speaker} />
+          speakersList.map((speaker, index) => (
+            <SpeakerCard key={index} reverse={index % 2 === 0} speaker={speaker} />
           ))
         }
       </div>
